@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.connect {
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+button:hover {
+  background-color: #32836b;
+}
+.connectBtn {
+  background-color: #2e695f;
+}

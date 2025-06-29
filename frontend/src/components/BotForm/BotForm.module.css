@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: cursive;
+  font-size: 35px;
+  color: #2e695f;
+  padding: 23px;
+  font-weight: 800;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 60%;
+  max-width: 600px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+.price {
+  padding: 20px;
+  font-size: 32px;
+  color: #222;
+  font-weight: bold;
+}
+
+.lists {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+}
+
+.list {
+  padding: 12px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.contentlist,
+input[type="number"] {
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 100%;
+  max-width: 400px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #37976a;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-top: 8px;
+}
+
+.list:first-child button {
+  width: 100%;
+  max-width: 400px;
+}
+
+button:hover {
+  background-color: #32836b;
+}
+
+.signalButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.signalButtons button {
+  flex: 1;
+  text-align: center;
+}
